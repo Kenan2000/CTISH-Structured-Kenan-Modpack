@@ -1,4 +1,4 @@
-[ 
+[
   {
     "id": "frostie_trunk",
     "type": "vehicle_part",
@@ -449,26 +449,6 @@
     "description": "A living blob, acting as a door.  Entirely opaque so you can't see through it when closed.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "OBSTACLE", "OPAQUE", "OPENABLE", "BOARDABLE" ]
-  },
-  {
-    "id": "grinder",
-    "type": "vehicle_part",
-    "name": { "str": "earthen roller" },
-    "item": "grinder",
-    "location": "structure",
-    "symbol": "O",
-    "broken_symbol": "#",
-    "color": "brown",
-    "broken_color": "brown",
-    "durability": 2500,
-    "damage_modifier": 250,
-    "folded_volume": "250 ml",
-    "breaks_into": [ { "item": "gray" } ],
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "rolling_resistance": 6,
-    "wheel_type": "rigid",
-    "contact_area": 500,
-    "flags": [ "WHEEL", "PROTRUSION", "STABLE", "TRACKED" ]
   },
   {
     "id": "oozle_amalgam",
